@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-fws-slot="business.name">Dark Fashion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html {
+        scroll-padding-top: 4rem;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-black text-zinc-100 antialiased selection:bg-zinc-300 selection:text-black overflow-x-hidden"
+  >
+    <header
+      class="fixed inset-x-0 top-0 z-50 border-b border-zinc-800/80 bg-black/70 backdrop-blur"
+    >
+      <div
+        class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-12"
+      >
+        <div class="flex items-center space-x-6">
+          <p
+            class="font-serif text-sm tracking-[0.45em] text-zinc-400"
+            data-fws-slot="business.name"
+          >
+            Dark Fashion
+          </p>
+          <p
+            class="hidden md:block text-xs uppercase tracking-[0.35em] text-zinc-500"
+          >
+            Editorial Campaign Volume 09 / Naarm Edition
+          </p>
+        </div>
+
+        <nav
+          class="hidden md:flex items-center space-x-8"
+          aria-label="Main navigation"
+        >
+          <a
+            href="#"
+            class="text-sm uppercase tracking-[0.35em] text-zinc-300 hover:text-amber-200/90"
+            >Home</a
+          >
+          <a
+            href="#collections"
+            class="text-sm uppercase tracking-[0.35em] text-zinc-300 hover:text-amber-200/90"
+            >Collections</a
+          >
+          <a
+            href="#gallery"
+            class="text-sm uppercase tracking-[0.35em] text-zinc-300 hover:text-amber-200/90"
+            >Gallery</a
+          >
+          <a
+            href="#about"
+            class="text-sm uppercase tracking-[0.35em] text-zinc-300 hover:text-amber-200/90"
+            >About</a
+          >
+          <a
+            href="#contact"
+            class="text-sm uppercase tracking-[0.35em] text-zinc-300 hover:text-amber-200/90"
+            >Contact</a
+          >
+        </nav>
+
+        <div class="flex items-center gap-4">
+          <a
+            href="#"
+            class="hidden md:inline-block rounded-full border border-zinc-800 px-4 py-2 text-xs uppercase tracking-[0.35em] text-zinc-300 hover:bg-zinc-900/60"
+            >Shop</a
+          >
+          <button
+            id="nav-toggle"
+            class="md:hidden inline-flex items-center justify-center rounded p-2 text-zinc-300 hover:bg-zinc-900/50"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg
+              class="h-6 w-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div
+        id="mobile-menu"
+        class="md:hidden hidden border-t border-zinc-800 bg-black/90"
+      >
+        <div class="mx-auto max-w-7xl px-6 py-4">
+          <nav class="flex flex-col gap-3">
+            <a
+              href="#"
+              class="text-sm uppercase tracking-[0.35em] text-zinc-300 hover:text-amber-200/90"
+              >Home</a
+            >
+            <a
+              href="#collections"
+              class="text-sm uppercase tracking-[0.35em] text-zinc-300 hover:text-amber-200/90"
+              >Collections</a
+            >
+            <a
+              href="#gallery"
+              class="text-sm uppercase tracking-[0.35em] text-zinc-300 hover:text-amber-200/90"
+              >Gallery</a
+            >
+            <a
+              href="#about"
+              class="text-sm uppercase tracking-[0.35em] text-zinc-300 hover:text-amber-200/90"
+              >About</a
+            >
+            <a
+              href="#contact"
+              class="text-sm uppercase tracking-[0.35em] text-zinc-300 hover:text-amber-200/90"
+              >Contact</a
+            >
+            <a
+              href="#"
+              class="mt-2 rounded border border-zinc-800 px-4 py-2 text-xs uppercase tracking-[0.35em] text-zinc-300 hover:bg-zinc-900/60"
+              >Shop</a
+            >
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section
+        class="relative min-h-screen overflow-hidden border-b border-zinc-800"
+      >
+        <img
+          src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=2000&q=80"
+          alt="Cinematic runway fashion portrait"
+          class="absolute inset-0 h-full w-full object-cover opacity-40 transition duration-700 hover:scale-105"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-transparent"
+        ></div>
+        <div
+          class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/40"
+        ></div>
+
+        <div
+          id="home"
+          class="relative mx-auto grid min-h-screen max-w-7xl items-end gap-10 px-6 pb-20 pt-32 lg:grid-cols-12 lg:px-12"
+        >
+          <article class="lg:col-span-8">
+            <p class="mb-4 text-xs uppercase tracking-[0.45em] text-zinc-400">
+              Underground Luxury Editorial
+            </p>
+            <h1
+              class="font-serif text-5xl uppercase leading-[0.95] tracking-tight text-zinc-100 sm:text-7xl lg:text-9xl"
+              data-fws-slot="business.name"
+            >
+              Dark Fashion
+            </h1>
+            <p
+              class="mt-4 max-w-xl text-sm uppercase tracking-[0.35em] text-zinc-400"
+              data-fws-slot="business.tagline"
+            >
+              Brutalist tailoring for midnight laneways.
+            </p>
+          </article>
+          <aside
+            class="border border-zinc-700/70 bg-zinc-900/60 p-6 backdrop-blur lg:col-span-4 lg:mb-8"
+          >
+            <p class="text-xs uppercase tracking-[0.35em] text-amber-200/70">
+              Campaign Note
+            </p>
+            <p
+              class="mt-4 text-sm leading-relaxed text-zinc-300"
+              data-fws-slot="business.description"
+            >
+              Sculpted silhouettes, metallic gestures, and monochrome rebellion.
+              Designed between Naarm and Gadigal, this collection frames fashion
+              as cinema: tense, quiet, and unforgettable.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section
+        id="collections"
+        class="relative z-10 -mt-14 border-b border-zinc-800 bg-zinc-950 px-6 py-20 lg:px-12"
+      >
+        <div class="mx-auto grid max-w-7xl gap-10 lg:grid-cols-2">
+          <figure class="group overflow-hidden border border-zinc-800">
+            <img
+              src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1600&q=80"
+              alt="Luxury streetwear model in dark city light"
+              class="h-full w-full object-cover transition duration-700 group-hover:scale-110"
+            />
+          </figure>
+          <article class="self-center">
+            <p class="text-xs uppercase tracking-[0.35em] text-zinc-400">
+              Split Screen Story
+            </p>
+            <h2
+              class="mt-6 font-serif text-4xl uppercase leading-tight sm:text-5xl"
+            >
+              Shadow and Steel
+            </h2>
+            <p class="mt-6 max-w-xl text-zinc-300">
+              Precision cuts meet nocturnal textures. Every look is designed
+              like a frame from a futuristic film set in Melbourne after dark,
+              where silence is power and fabric becomes architecture.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="border-b border-zinc-800 bg-black px-6 py-28 lg:px-12">
+        <blockquote class="mx-auto max-w-5xl text-center">
+          <p
+            class="font-serif text-3xl italic leading-relaxed text-zinc-100 sm:text-5xl"
+          >
+            "We do not design outfits. We direct atmospheres."
+          </p>
+          <cite
+            class="mt-8 block text-xs uppercase tracking-[0.4em] text-amber-200/70"
+            >House Manifest</cite
+          >
+        </blockquote>
+      </section>
+
+      <section
+        id="gallery"
+        class="border-b border-zinc-800 bg-zinc-950 px-6 py-24 lg:px-12"
+      >
+        <div class="mx-auto max-w-7xl">
+          <header
+            class="mb-12 flex flex-col gap-4 md:flex-row md:items-end md:justify-between"
+          >
+            <h2 class="font-serif text-4xl uppercase sm:text-6xl">
+              Avant-Garde Gallery
+            </h2>
+            <p
+              class="max-w-md text-sm uppercase tracking-[0.3em] text-zinc-400"
+            >
+              Collection Frames 01-06
+            </p>
+          </header>
+          <div class="grid gap-6 md:grid-cols-12">
+            <figure
+              class="group md:col-span-7 overflow-hidden border border-zinc-800"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1464863979621-258859e62245?auto=format&fit=crop&w=1800&q=80"
+                alt="Monochrome fashion shoot in dramatic light"
+                class="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+              />
+            </figure>
+            <figure
+              class="group md:col-span-5 overflow-hidden border border-zinc-800 md:mt-16"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=1300&q=80"
+                alt="Luxury accessories and watch composition"
+                class="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+              />
+            </figure>
+            <figure
+              class="group md:col-span-4 overflow-hidden border border-zinc-800 md:-mt-20"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1300&q=80"
+                alt="Futuristic fashion portrait with bold silhouette"
+                class="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+              />
+            </figure>
+            <figure
+              class="group md:col-span-8 overflow-hidden border border-zinc-800"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1800&q=80"
+                alt="Runway-inspired fashion editorial image"
+                class="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="about"
+        class="relative overflow-hidden border-b border-zinc-800 bg-black px-6 py-24 lg:px-12"
+      >
+        <img
+          src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=2000&q=80"
+          alt="Dark architecture at night"
+          class="absolute inset-0 h-full w-full object-cover opacity-20"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-black/30"
+        ></div>
+        <div class="relative mx-auto grid max-w-7xl gap-10 lg:grid-cols-2">
+          <article>
+            <p class="text-xs uppercase tracking-[0.35em] text-zinc-400">
+              Campaign Storytelling
+            </p>
+            <h2
+              class="mt-6 font-serif text-4xl uppercase leading-tight sm:text-6xl"
+            >
+              Night Transit / Issue No. 4
+            </h2>
+          </article>
+          <article class="space-y-6 text-zinc-300">
+            <p>
+              Shot between Flinders Lane, Circular Quay, and concrete monoliths,
+              the campaign explores movement, anonymity, and crafted identity.
+              Every look is built for motion under artificial light.
+            </p>
+            <p>
+              Materials move from matte charcoal wool to metallic threads and
+              muted gold details, creating tension between restraint and
+              spectacle with a distinctly Australian edge.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="border-b border-zinc-800 bg-zinc-950 px-6 py-24 lg:px-12">
+        <div class="mx-auto max-w-5xl text-center">
+          <p class="text-xs uppercase tracking-[0.35em] text-zinc-400">
+            Fashion Manifesto
+          </p>
+          <h2
+            class="mt-6 font-serif text-4xl uppercase leading-tight sm:text-6xl"
+          >
+            Minimal Form. Maximum Presence.
+          </h2>
+          <p class="mx-auto mt-8 max-w-3xl text-zinc-300">
+            We believe in fewer pieces with stronger intent. Craft should feel
+            heavy, pure, and permanent. Luxury is not decoration; it is
+            disciplined design and fearless attitude.
+          </p>
+        </div>
+      </section>
+
+      <section class="border-b border-zinc-800 bg-black px-6 py-24 lg:px-12">
+        <div class="mx-auto max-w-7xl">
+          <h2 class="font-serif text-4xl uppercase sm:text-6xl">
+            Immersive Collage
+          </h2>
+          <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-12">
+            <figure
+              class="group overflow-hidden border border-zinc-800 lg:col-span-5"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1495385794356-15371f348c31?auto=format&fit=crop&w=1500&q=80"
+                alt="Cinematic portrait in moody tones"
+                class="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+              />
+            </figure>
+            <figure
+              class="group overflow-hidden border border-zinc-800 lg:col-span-3 lg:mt-20"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=1200&q=80"
+                alt="Luxury watch and accessories still-life"
+                class="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+              />
+            </figure>
+            <figure
+              class="group overflow-hidden border border-zinc-800 lg:col-span-4"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1400&q=80"
+                alt="Urban night fashion shoot"
+                class="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="border-b border-zinc-800 bg-zinc-950 px-6 py-24 lg:px-12">
+        <div class="mx-auto max-w-7xl">
+          <header
+            class="mb-10 flex flex-col gap-4 md:flex-row md:items-end md:justify-between"
+          >
+            <h2 class="font-serif text-4xl uppercase sm:text-6xl">
+              Featured Pieces
+            </h2>
+            <p class="text-sm uppercase tracking-[0.3em] text-zinc-400">
+              Selected Artifacts
+            </p>
+          </header>
+          <div class="grid gap-6 md:grid-cols-3">
+            <article
+              class="group border border-zinc-800 p-6 transition duration-500 hover:-translate-y-1 hover:border-zinc-600"
+            >
+              <p class="text-xs uppercase tracking-[0.3em] text-zinc-400">01</p>
+              <h3 class="mt-4 font-serif text-2xl">Noir Trench</h3>
+              <p class="mt-3 text-sm text-zinc-300">
+                Structured shoulder line. Matte charcoal shell. Hidden magnetic
+                closure.
+              </p>
+            </article>
+            <article
+              class="group border border-zinc-800 p-6 transition duration-500 hover:-translate-y-1 hover:border-zinc-600"
+            >
+              <p class="text-xs uppercase tracking-[0.3em] text-zinc-400">02</p>
+              <h3 class="mt-4 font-serif text-2xl">Silver Frame Boots</h3>
+              <p class="mt-3 text-sm text-zinc-300">
+                Angular outsole in brushed metal finish with soft black leather
+                upper.
+              </p>
+            </article>
+            <article
+              class="group border border-zinc-800 p-6 transition duration-500 hover:-translate-y-1 hover:border-zinc-600"
+            >
+              <p class="text-xs uppercase tracking-[0.3em] text-zinc-400">03</p>
+              <h3 class="mt-4 font-serif text-2xl">Obsidian Chronograph</h3>
+              <p class="mt-3 text-sm text-zinc-300">
+                Minimal dial, heavy case, and muted gold index points for subtle
+                contrast.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="border-b border-zinc-800 bg-black px-6 py-24 lg:px-12">
+        <div class="mx-auto max-w-7xl">
+          <h2 class="font-serif text-4xl uppercase sm:text-6xl">
+            Testimonials
+          </h2>
+          <div class="mt-10 grid gap-6 md:grid-cols-3">
+            <article
+              class="border border-zinc-800 bg-zinc-900/30 p-6 backdrop-blur transition duration-500 hover:border-zinc-600"
+            >
+              <p class="text-zinc-300">
+                "An impossible balance of underground rawness and atelier-level
+                precision."
+              </p>
+              <p class="mt-6 text-xs uppercase tracking-[0.3em] text-zinc-500">
+                Vanta Magazine
+              </p>
+            </article>
+            <article
+              class="border border-zinc-800 bg-zinc-900/30 p-6 backdrop-blur transition duration-500 hover:border-zinc-600"
+            >
+              <p class="text-zinc-300">
+                "Every frame looks like a future classic campaign."
+              </p>
+              <p class="mt-6 text-xs uppercase tracking-[0.3em] text-zinc-500">
+                Runway Archive
+              </p>
+            </article>
+            <article
+              class="border border-zinc-800 bg-zinc-900/30 p-6 backdrop-blur transition duration-500 hover:border-zinc-600"
+            >
+              <p class="text-zinc-300">
+                "A bold rejection of disposable trends. Powerful and exacting."
+              </p>
+              <p class="mt-6 text-xs uppercase tracking-[0.3em] text-zinc-500">
+                Nocturne Journal
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      id="contact"
+      class="relative overflow-hidden bg-zinc-950 px-6 py-20 lg:px-12"
+    >
+      <img
+        src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=2000&q=80"
+        alt="Urban skyline at night"
+        class="absolute inset-0 h-full w-full object-cover opacity-20"
+      />
+      <div
+        class="absolute inset-0 bg-gradient-to-b from-zinc-950/50 to-black"
+      ></div>
+      <div class="relative mx-auto grid max-w-7xl gap-12 lg:grid-cols-12">
+        <section class="lg:col-span-6">
+          <p class="text-xs uppercase tracking-[0.35em] text-zinc-400">
+            Contact Atelier
+          </p>
+          <h2 class="mt-4 font-serif text-4xl uppercase sm:text-5xl">
+            Book a Private Viewing
+          </h2>
+          <p class="mt-6 max-w-lg text-zinc-300">
+            Appointments are curated for stylists, press, and collectors seeking
+            directional luxury with cinematic depth across Australia and beyond.
+          </p>
+        </section>
+        <section class="grid gap-8 text-sm lg:col-span-6 sm:grid-cols-2">
+          <article>
+            <h3 class="mb-3 text-xs uppercase tracking-[0.3em] text-zinc-500">
+              Direct
+            </h3>
+            <p class="text-zinc-200" data-fws-slot="contact.email">
+              studio@darkfashion.com.au
+            </p>
+            <p class="mt-2 text-zinc-300" data-fws-slot="contact.phone">
+              +61 3 9012 4488
+            </p>
+          </article>
+          <article>
+            <h3 class="mb-3 text-xs uppercase tracking-[0.3em] text-zinc-500">
+              Studio
+            </h3>
+            <p class="text-zinc-200" data-fws-slot="contact.address">
+              Level 4, 88 Little Collins Street, Melbourne VIC 3000
+            </p>
+            <p class="mt-2 text-zinc-300" data-fws-slot="business.hours">
+              Mon-Sat / 10:00 - 19:00 AEST
+            </p>
+          </article>
+          <article>
+            <h3 class="mb-3 text-xs uppercase tracking-[0.3em] text-zinc-500">
+              Social
+            </h3>
+            <a
+              href="#"
+              class="block text-zinc-200 transition hover:text-amber-200/80"
+              data-fws-slot="social.instagram"
+              >@darkfashion</a
+            >
+            <a
+              href="#"
+              class="mt-2 block text-zinc-300 transition hover:text-amber-200/80"
+              data-fws-slot="social.facebook"
+              >Dark Fashion House</a
+            >
+          </article>
+        </section>
+      </div>
+
+      <div
+        class="relative mx-auto mt-14 max-w-7xl border-t border-zinc-800 pt-6 text-xs uppercase tracking-[0.3em] text-zinc-500"
+      >
+        <!-- The FWS platform replaces this with the real designer-credit
+             snippet at deploy time. Do not remove. -->
+        <span data-fws-slot="fws.byline"
+          >Template by kirantikoo · made with FreeWebStore</span
+        >
+      </div>
+    </footer>
+    <script>
+      (function () {
+        const btn = document.getElementById("nav-toggle");
+        const menu = document.getElementById("mobile-menu");
+        if (!btn || !menu) return;
+        btn.addEventListener("click", function () {
+          const opened = btn.getAttribute("aria-expanded") === "true";
+          btn.setAttribute("aria-expanded", String(!opened));
+          menu.classList.toggle("hidden");
+        });
+
+        // Close mobile menu when a link is tapped
+        const links = menu.querySelectorAll("a");
+        links.forEach((link) => {
+          link.addEventListener("click", function () {
+            menu.classList.add("hidden");
+            btn.setAttribute("aria-expanded", "false");
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>
